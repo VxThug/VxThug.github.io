@@ -1,12 +1,18 @@
+
+
+@import "https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap";
+
 html {
-	font-family: "IBM Plex Serif", serif;
+  font-family: "IBM Plex Serif", serif;
 }
+
 h1,
 h2 {
-  font-family: "Bevan", serof;
-  
-  /* General setup */
-  
+  font-family: "Bevan", serif;
+}
+
+/* General setup */
+
 * {
   box-sizing: border-box;
 }
@@ -27,7 +33,7 @@ main {
   padding: 20px 0;
 }
 
-/* header and footer */
+/* Header and footer */
 
 header {
   border-bottom: 5px solid #aa6666;
@@ -41,7 +47,6 @@ footer p {
   text-align: center;
 }
 
-/* all text styling */
 
 h1 {
   font-size: 3rem;
@@ -65,8 +70,6 @@ li {
   letter-spacing: 0.5px;
 }
 
-/* Solution: Link styling */
-
 a {
   outline: none;
 }
@@ -86,4 +89,51 @@ a:focus,
 a:hover {
   text-decoration: none;
   color: #773333;
+}
+
+ul,
+ol {
+  margin: 1rem 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+nav li a {
+  font-family: "Bevan", serif;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3.5;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 1px solid #aa6666;
+}
+
+nav li a:focus,
+nav li a:hover {
+  color: white;
+  background: #aa6666;
+}
+
+nav li a:active {
+  color: white;
+  background: black;
 }
