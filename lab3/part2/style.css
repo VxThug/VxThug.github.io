@@ -1,5 +1,10 @@
-/* General setup */
-
+html {
+	font-family: "IBM Plex Serif", serif;
+}
+h1,
+h2 {
+  font-family: "Bevan", serof;
+  /* General setup */
 * {
   box-sizing: border-box;
 }
