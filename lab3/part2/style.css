@@ -4,7 +4,9 @@ html {
 h1,
 h2 {
   font-family: "Bevan", serof;
+  
   /* General setup */
+  
 * {
   box-sizing: border-box;
 }
