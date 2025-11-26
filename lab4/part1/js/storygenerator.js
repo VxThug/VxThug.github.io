@@ -54,7 +54,7 @@ function generateStory() {
 	
   if (customName.value !== "") {
     const name = customName.value;
-	newStory =
+	newStory = newStory.replace("Bob", name);
   }
 
   if (document.getElementById("uk").checked) {
