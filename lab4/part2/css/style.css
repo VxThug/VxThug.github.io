@@ -34,3 +34,25 @@ button {
   left: 2px;
 }
 
+button:hover,
+button:focus {
+  color: rgb(150 150 150 / 1);
+  background-color: black;
+}
+
+.thumb-bar {
+  display: flex;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 100px;
+  flex: 1;
+}
+
+.thumb-bar img:hover,
+.thumb-bar img:focus {
+  outline: 2px solid blue;
+}
