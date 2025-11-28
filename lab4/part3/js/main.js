@@ -17,7 +17,8 @@ function random(min, max) {
 function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
-
+// Animating the Ball
+const balls = [];
 // Modelling Ball Program
 class Ball {
   constructor(x, y, velX, velY, color, size) {
@@ -73,8 +74,7 @@ class Ball {
   }
 }
 
-// Animating the Ball
-const balls = [];
+
 
 while (balls.length < 25) {
   const size = random(10, 20);
