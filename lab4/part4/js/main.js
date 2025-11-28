@@ -1,16 +1,20 @@
 // set up canvas
 
-const canvas = document.querySelector("canvas");
-const ctx = canvas.getContext("2d");
+const para = document.querySelector('p');
+let count = 0;
 
-const width = (canvas.width = window.innerWidth);
-const height = (canvas.height = window.innerHeight);
+const canvas = document.querySelector('canvas');
+const ctx = canvas.getContext('2d');
+
+const width = canvas.width = window.innerWidth;
+const height = canvas.height = window.innerHeight;
 
 // function to generate random number
 
-function random(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+function random(min,max) {
+  const num = Math.floor(Math.random()*(max-min)) + min;
+  return num;
+};
 
 // function to generate random RGB color value
 
