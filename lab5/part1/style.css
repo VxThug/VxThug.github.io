@@ -28,25 +28,18 @@ p, input, li, table, label {
   line-height: 1.5;
 }
 
-font[size="7"] {
-  font-size: 4rem;
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 5rem;
   text-align: center;
   color: white;
-  text-shadow: 2px 2px 10px black;
-}
-
-font[size="6"] {
-  font-size: 3rem;
-  text-align: center;
-}
-
-font[size="5"] {
-  font-size: 2.2rem;
-}
-
-p, li, table {
-  font-size: 1.6rem;
-  line-height: 1.5;
+  text-shadow: 3px 3px 2px black;
+  padding: 10px 0;
+  letter-spacing: 2px;
 }
 
 /* || header layout */
