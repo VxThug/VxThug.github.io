@@ -44,70 +44,59 @@ h1 {
 
 /* || header layout */
 
-div[class="nav"], article, footer, .secondary {
-  background-color: green;
-}
-
-article, footer, .secondary {
-  padding: 10px 30px;
-}
-
-article {
-  margin-right: 10px;
-}
-
-div[class="nav"] {
+nav {
   height: 50px;
-  background-color: ff80ff;
+  background-color: #fff;
   display: flex;
-  padding: 1% 0;
-  margin-bottom: 10px;
+  align-items: center;
 }
 
-div[class="nav"] ul {
+nav ul {
   padding: 0;
+  margin: 0;
   list-style-type: none;
   flex: 2;
   display: flex;
 }
 
-div[class="nav"] li {
-  display: inline;
-  text-align: center;
+nav li {
   flex: 1;
+  text-align: center;
 }
 
-div[class="nav"] a {
+nav a {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
+  font-weight: bold;
 }
 
-div[class="nav"] .search {
+nav .search {
   flex: 1;
   display: flex;
   align-items: center;
-  height: 100%;
-  padding: 0 2em;
-}
-
-.search input {
-  font-size: 1.6rem;
-  height: 32px;
+  padding-right: 20px;
 }
 
 .search input[type="search"] {
   flex: 3;
+  height: 32px;
+  padding-left: 5px;
+  border: 1px solid #ccc;
 }
 
 .search input[type="submit"] {
   flex: 1;
-  margin-left: 1rem;
+  height: 36px;
+  margin-left: 0;
   background: #333;
   border: 0;
   color: white;
+  cursor: pointer;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.6rem;
 }
 
 /* || main layout */
