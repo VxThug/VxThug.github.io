@@ -49,6 +49,7 @@ nav {
   background-color: #fff;
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 nav ul {
@@ -105,6 +106,7 @@ main {
   display: flex;
   background-color: #fff;
   padding-top: 20px;
+  margin-bottom: 20px;
 }
 
 article {
