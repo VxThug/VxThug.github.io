@@ -1,31 +1,31 @@
 /* || General setup */
 
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
 html {
   font-size: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
   background-color: #dde;
 }
 
 body {
   width: 80%;
-  min-width: 1024px;
+  min-width: 1000px;
   margin: 0 auto;
+  padding: 0;
 }
 
-/* || typography */
+/* || Typography */
 
-font[size="7"], font[size="6"], font[size="5"] {
+h1, h2, h3 {
   font-family: 'Sonsie One', cursive;
   color: #2a2a2a;
+  margin: 0;
 }
 
 p, input, li, table, label {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #2a2a2a;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 font[size="7"] {
