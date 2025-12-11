@@ -158,3 +158,38 @@ footer p {
   margin: 0;
   font-size: 1.4rem;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+caption {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Sonsie One', cursive;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+img, audio {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+audio {
+  width: 100%;
+  background-color: #f1f3f4;
+}
